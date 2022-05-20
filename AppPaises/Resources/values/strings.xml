@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppPaises</string>
+	<string name="action_settings">Settings</string>
+	<string name="lblTitulo">Lista continentes</string>
+	
+	<string name="lblTituloPais">Detalle del país</string>
+	<string name="lblNombrePais">País</string>
+	<string name="lblCapital">Capital</string> 
+	<string name="lblPrefijo">Prefijo de salida</string>
+	<string name="lblIsoDos">ISO2</string>
+	<string name="lblIsoTres">ISO3</string>
+	<string name="btnLlamar">Marcar</string>
+</resources>

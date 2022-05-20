@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/colorFondo">
+
+     <TextView
+                android:textColor="@color/colorLetras"
+                android:text="@string/lblNombrePais"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lbl2" />
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="80dp"
+            android:id="@+id/linearLayout1"
+           android:background="@color/colorLista"
+            >
+
+           
+            <TextView
+                android:textColor="@color/colorLetras"
+                android:text="@string/lblCapital"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lbl3" />
+            <TextView
+                android:textColor="@color/colorLetras"
+                android:text="@string/lblPrefijo"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lbl4" />
+            <TextView
+                android:textColor="@color/colorLetras"
+                android:text="@string/lblIsoDos"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lbl5" />
+            <TextView
+                android:textColor="@color/colorLetras"
+                android:text="@string/lblIsoTres"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:id="@+id/lbl6" />
+            <EditText
+                android:textColor="@color/colorLetras"
+                android:textColorHint="@color/colorLetras"
+                android:textColorLink="@color/colorLetras"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNumero"
+                android:autoText="false"
+                android:textColorHighlight="#ffffffff" />
+            <Button
+                android:background="@color/colorBoton"
+                android:text="@string/btnLlamar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnLlamar" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
